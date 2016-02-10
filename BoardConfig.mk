@@ -38,6 +38,6 @@ BOARD_HAS_FLIPPED_SCREEN := true
 TARGET_RELEASETOOLS_EXTENSIONS := device/lge/w55ds
 
 # Charger
-BOARD_HEALTHD_CUSTOM_CHARGER_RES := device/lge/w5/charger/images
+BOARD_HEALTHD_CUSTOM_CHARGER_RES := device/lge/w55ds/charger/images
 
 -include vendor/lge/w55ds/BoardConfigVendor.mk
