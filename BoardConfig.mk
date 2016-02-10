@@ -32,6 +32,7 @@ TARGET_OTA_ASSERT_DEVICE := w4,w5ds,w55ds,gammaw
 
 #TWRP
 TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
+BOARD_HAS_FLIPPED_SCREEN := true
 
 # Releasetools
 TARGET_RELEASETOOLS_EXTENSIONS := device/lge/w55ds
