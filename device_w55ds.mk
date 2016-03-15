@@ -28,7 +28,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.product.device=w55ds \
     ro.product.model=LG-D285 \
     persist.radio.multisim.config=dsds \
-    ro.sf.hwrotation=180
+    persist.panel.inversemounted=1
 
 PRODUCT_COPY_FILES += \
     device/lge/w55ds/mixer_paths.xml:system/etc/mixer_paths.xml \
